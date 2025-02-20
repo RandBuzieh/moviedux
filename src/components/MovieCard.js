@@ -3,7 +3,7 @@ import "../styles.css";
 
 export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
   const handelImgError = (e) => {
-    e.target.src = "/images/default.jpg";
+    e.target.src = "https://github.com/RandBuzieh/moviedux/blob/main/public/images/default.jpg";
   };
   const rating = (rate) => {
     if (movie.rating >= 8) return "rating-good";
@@ -13,7 +13,7 @@ export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
   return (
     <div key={movie.id} className="movie-card">
       <img
-        src={`/images/${movie.image}`}
+        src={movie.image}
         alt={movie.title}
         onError={handelImgError}
       ></img>
