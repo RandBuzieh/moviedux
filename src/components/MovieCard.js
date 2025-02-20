@@ -3,7 +3,7 @@ import "../styles.css";
 
 export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
   const handelImgError = (e) => {
-    e.target.src = "https://github.com/RandBuzieh/moviedux/blob/main/public/images/default.jpg";
+    e.target.src = "https://raw.githubusercontent.com/RandBuzieh/moviedux/blob/main/public/images/default.jpg";
   };
   const rating = (rate) => {
     if (movie.rating >= 8) return "rating-good";
