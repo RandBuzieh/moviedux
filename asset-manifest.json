@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moviedux/static/css/main.8e8134a1.css",
+    "main.js": "/moviedux/static/js/main.d217257a.js",
+    "static/js/453.934938f1.chunk.js": "/moviedux/static/js/453.934938f1.chunk.js",
+    "index.html": "/moviedux/index.html",
+    "main.8e8134a1.css.map": "/moviedux/static/css/main.8e8134a1.css.map",
+    "main.d217257a.js.map": "/moviedux/static/js/main.d217257a.js.map",
+    "453.934938f1.chunk.js.map": "/moviedux/static/js/453.934938f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e8134a1.css",
+    "static/js/main.d217257a.js"
+  ]
+}
