@@ -14,7 +14,6 @@ Moviedux is a modern movie discovery and watchlist management application built 
 - **React.js** – Frontend framework  
 - **React Hooks** – State management  
 - **CSS (Styled Components / Tailwind CSS)** – Styling  
-- **Movie API (if applicable)** – Fetching movie data  
 
 
 ## 📜 License  
