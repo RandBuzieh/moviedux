@@ -4,20 +4,14 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MoviesGrid from "./components/MoviesGrid";
 import Watchlist from "./components/Watchlist";
-import {
-  BrowserRouter as Router,
-  Routers,
-  Route,
-  Link,
-  Routes,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Link, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [watchlist, setWatchlist] = useState([]);
   useEffect(() => {
-    fetch("movies.json").then((response) =>
+    fetch(process.env.PUBLIC_URL + "/movies.json").then((response) =>
       response.json().then((data) => setMovies(data))
     );
   }, []);
