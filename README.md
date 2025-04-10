@@ -2,6 +2,7 @@
 
 Moviedux is a modern movie discovery and watchlist management application built with **React**. It allows users to browse movies and filter them by genre and rating.  
 
+![Screenshot 2025-04-10 200101](https://github.com/user-attachments/assets/be50960a-e281-4f87-934c-8c0508f00f2a)
 ## 🚀 Features  
 
 - 🔍 **Search movies** by title  
